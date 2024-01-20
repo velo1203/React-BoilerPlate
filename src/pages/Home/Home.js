@@ -1,9 +1,10 @@
-import './Home.css';
+import { StyledDefaultPage } from '../../style/layout/StyledDefaultPage';
 
 function Home() {
   return (
-    <div className="Home">
-    </div>
+<StyledDefaultPage>
+
+</StyledDefaultPage>
   );
 }
 
