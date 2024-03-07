@@ -10,12 +10,12 @@ export const StyledSection = styled.div`
 export const StyeldTitleSection = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
-    margin-top: 4rem;
+    gap: 0.3rem;
+    margin-top: 1rem;
     color: var(--Font);
     h1 {
         font-weight: bolder;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     span {
@@ -23,12 +23,12 @@ export const StyeldTitleSection = styled.div`
     }
 `;
 
-export const StyledCardSection = styled.div`
+export const StyledMonth = styled.h1`
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 50px;
-    margin-top: 2rem;
-    background-color: var(--Background);
-    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 2rem;
+    margin-left: 20px;
+    color: var(--Font);
 `;
